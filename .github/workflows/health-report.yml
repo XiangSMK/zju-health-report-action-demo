@@ -13,18 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - username: ZJU_USERNAME2 #hemubin
-            password: ZJU_PASSWORD2
-            dingtalk_token: DINGTALK_TOKEN2
-          - username: ZJU_USERNAME #fanxiaoxiao
-            password: ZJU_PASSWORD
-            dingtalk_token: DINGTALK_TOKEN
-          - username: ZJU_USERNAME3 #jiangjiazhi
-            password: ZJU_PASSWORD3
-            dingtalk_token: DINGTALK_TOKEN3
-          - username: ZJU_USERNAME4 #pengshiyi
-            password: ZJU_PASSWORD4
-            dingtalk_token: DINGTALK_TOKEN4
+          - username: ZJU_USERNAME_XIANG
+            password: ZJU_PASSWORD_XIANG
+            dingtalk_token: DINGTALK_TOKEN_XIANG
     steps:
       - name: 打卡
         uses: zju-health-report/action@release
