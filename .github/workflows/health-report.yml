@@ -22,6 +22,10 @@ jobs:
           - username: ZJU_USERNAME_KAI
             password: ZJU_PASSWORD_KAI
             dingtalk_token: DINGTALK_TOKEN_KAI
+            # xiang doc
+          - username: ZJU_USERNAME_doc
+            password: ZJU_PASSWORD_doc
+            dingtalk_token: DINGTALK_TOKEN_doc
     steps:
       - name: 打卡
         uses: zju-health-report/action@release
